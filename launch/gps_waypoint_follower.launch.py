@@ -84,9 +84,9 @@ def generate_launch_description():
     )
     
     waypoint_follower_cmd = Node(
-        package='nav2_gps_waypoint_follower_demo',
-        executable='interactive_waypoint_follower',
-        name='interactive_waypoint_follower',
+        package='tbot_gps_nav2',
+        executable='waypoint_follower',
+        name='waypoint_follower',
         output='screen'
     )
 

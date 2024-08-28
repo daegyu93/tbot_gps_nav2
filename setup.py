@@ -24,7 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'interactive_waypoint_follower = nav2_gps_waypoint_follower_demo.interactive_waypoint_follower:main',
+            'waypoint_follower = tbot_gps_nav2.waypoint_follower:main',
         ],
     },
 )

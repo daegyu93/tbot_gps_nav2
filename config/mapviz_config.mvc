@@ -64,3 +64,9 @@ displays:
       collapsed: false
       topic: /plan
       color: "#ff0000"
+  - type: mapviz_plugins/marker
+    name: new display
+    config:
+      visible: true
+      collapsed: false
+      topic: /visualization_marker
