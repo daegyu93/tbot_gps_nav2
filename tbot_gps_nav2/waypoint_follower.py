@@ -75,7 +75,7 @@ class GpsWaypointsFollower(Node):
             # self.get_logger().info("Following converted waypoint...")
             # self.navigator.goToPose(pose)
             
-            if len(self.waypoints) > 3:
+            if len(self.waypoints) > 10:
                 path = Path()
                 path.header.frame_id = 'map'
                 path.header.stamp = self.get_clock().now().to_msg()
