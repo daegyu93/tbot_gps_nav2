@@ -73,7 +73,7 @@ def generate_launch_description():
 
     rviz_cmd = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
-            os.path.join(bringup_dir, "launch", 'rviz_launch.py')),
+            os.path.join(launch_dir, 'rviz.launch.py')),
         condition=IfCondition(use_rviz)
     )
 
