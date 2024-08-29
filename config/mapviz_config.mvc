@@ -63,10 +63,29 @@ displays:
       visible: true
       collapsed: false
       topic: /plan
-      color: "#ff0000"
+      color: "#1500ff"
+      qos_depth: 10
+      qos_history: 1
+      qos_reliability: 1
+      qos_durability: 2
   - type: mapviz_plugins/marker
     name: new display
     config:
       visible: true
       collapsed: false
       topic: /visualization_marker
+      qos_depth: 10
+      qos_history: 1
+      qos_reliability: 1
+      qos_durability: 2
+  - type: mapviz_plugins/path
+    name: new display
+    config:
+      visible: true
+      collapsed: false
+      topic: /waypoint_path
+      color: "#ff0000"
+      qos_depth: 10
+      qos_history: 1
+      qos_reliability: 1
+      qos_durability: 2
